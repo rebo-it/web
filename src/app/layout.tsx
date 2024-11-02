@@ -15,7 +15,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Grupo Rebo",
-  description: "Beta",
+  description: "Página en construcción...",
 };
 
 export default function RootLayout({
