@@ -7,10 +7,26 @@
   --foreground: #171717;
 }
 
+.logo-white {
+  display: none;
+}
+
+.logo-black {
+  display: block;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+  }
+
+  .logo-white {
+    display: block;
+  }
+
+  .logo-black {
+    display: none;
   }
 }
 
