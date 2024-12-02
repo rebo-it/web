@@ -41,3 +41,5 @@ body {
     text-wrap: balance;
   }
 }
+
+@import 'bootstrap-icons/font/bootstrap-icons.css';

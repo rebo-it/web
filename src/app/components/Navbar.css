@@ -1,0 +1,28 @@
+/*Normal media styles*/
+.Navbar{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    max-width: none;
+}
+.NavTop{
+    height: 3rem;
+    width: 100%;
+    min-width: none;
+    max-width: none;
+    background-color: rgba(33, 33, 26, 1);
+}
+.TopLink{
+    color: white;
+    font-family: ubuntu;
+}
+
+
+.NavBottom{
+    height: 5rem;
+    background-color: rgb(217,28,28);
+    background:  linear-gradient(90deg, rgba(217,28,28,1) 0%, rgba(153,0,0,1) 50%);
+}
+.logo-nav{
+    width: 20vw;
+}

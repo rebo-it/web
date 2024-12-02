@@ -2,6 +2,7 @@ import Image from "next/image";
 import logoWhite from "../assets/logo/rebo-white.png";
 import logoBlack from "../assets/logo/rebo-black.png";
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
