@@ -1,0 +1,15 @@
+.Top1Body{
+	position: relative; /* Asegura que el pseudo-elemento se posicione correctamente */
+	background-image: url('../Figma Components/AboutUs/AcercaDe.png');
+	background-size: cover; 
+	background-position: start;
+	background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+	margin-right: 0% !important;
+}
+.MidBody1About{
+	background-color: rgba(33, 33, 26, 1);
+	height: 768px;
+	margin-right: 0% !important;
+}
