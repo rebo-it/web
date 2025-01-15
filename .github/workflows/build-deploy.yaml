@@ -1,6 +1,10 @@
-name: Build and Deploy to Beta
+name: Build and Deploy
 
-on: pull_request
+on:
+  push:
+    branches:
+      - main
+  pull_request:
 
 jobs:
   build:
