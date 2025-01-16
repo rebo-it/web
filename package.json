@@ -2,7 +2,7 @@
   "name": "prototypes",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://rebo-it.github.io/prototypes/",
+  "homepage": "https://beta.rebo.mx/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",

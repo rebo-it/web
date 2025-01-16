@@ -51,7 +51,7 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
 				</Navbar>
 			</div>
 			<div className="LogoContainer d-flex align-items-center justify-content-between">
-				<Link to="/prototypes">
+				<Link to="/">
 					<img 
 						className="Logo img-fluid" 
 						src={require('../Figma Components/ReboLogoWhite.png')} 
@@ -63,7 +63,7 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
 						<img className="MenuIcon" src={require('../Figma Components/Menu_Button.png')} alt="MenuIcon" />
 					</Button>
 					<Nav className="nav navbar-expand-lg d-none d-lg-flex justify-content-start nav-pills flex-column flex-sm-row">
-						<HeaderButton label="INICIO"  routePath="/prototypes" LabelColor="white" />
+						<HeaderButton label="INICIO"  routePath="/" LabelColor="white" />
 						<HeaderButton label="NOSOTROS"  routePath="/Nosotros" LabelColor="white" />
 						<HeaderButton label="PRODUCTOS +"  routePath="/Productos" LabelColor="white" />
 						<HeaderButton label="FAQS"  routePath="/Display" LabelColor="white" />
@@ -75,7 +75,7 @@ const HeaderBar: React.FC<HeaderBarprops> = () => {
 				<Offcanvas.Header closeButton>
 				</Offcanvas.Header>
 				<Offcanvas.Body className="d-lg-none d-block d-flex flex-column align-items-center justify-content-top">
-					<HeaderButton label="INICIO"  routePath="/prototypes" LabelColor="white" />
+					<HeaderButton label="INICIO"  routePath="/" LabelColor="white" />
 					<HeaderButton label="NOSOTROS"  routePath="/Nosotros" LabelColor="white" />
 					<HeaderButton label="PRODUCTOS +"  routePath="/Productos" LabelColor="white" />
 					<HeaderButton label="FAQS"  routePath="" LabelColor="white" />
